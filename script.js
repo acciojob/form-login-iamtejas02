@@ -2,8 +2,8 @@ function getFormvalue(event) {
       event.preventDefault(); // prevent page reload on submit
 
       // Get values and trim spaces
-      let firstName = document.forms["myForm"]["fname"].value.trim();
-      let lastName = document.forms["myForm"]["lname"].value.trim();
+      let firstName = document.forms["form1"]["fname"].value.trim();
+      let lastName = document.forms["form1"]["lname"].value.trim();
 
       // Handle empty fields
       if (!firstName && !lastName) {
